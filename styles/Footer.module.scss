@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+.footer{
+   &__content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3rem;
+      margin: 6rem 0px 0px 0px;
+      padding: 0px 0px 1.5rem 0px;
+      background: linear-gradient(1deg, rgba(255,237,237,.85) 0%, rgba(255,255,255,0) 14rem);
+   }
+   &__copy{
+      color: $themeRed;
+      text-transform: uppercase;
+      font-weight: 700;
+   }
+   &__social{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+
+      *{
+         fill: $themeRed;
+      }
+   }
+   &__logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+
+      span{
+         font-weight: 700;
+         font-size: 1.5rem;
+      }
+   }
+}
